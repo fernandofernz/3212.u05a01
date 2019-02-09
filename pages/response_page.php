@@ -2,12 +2,13 @@
 <body>
 <!-- This PHP code will loop through all of the input fields and output the IDs and names. Both options of the get and post methods are checked. -->
 <?php
- echo $_POST["fName"];
- echo $_POST["email"];
- echo $_POST["wouldSubscribe"];
- echo $_POST["typeOfComment"];
- echo $_POST["comment"];
 
+foreach($_POST as $key =>$value){
+    echo $key . ": " . $value . "<br/>";
+}
+foreach($_GET as $key =>$value){
+    echo $key . ": " . $value . "<br/>";
+}
 
 ?>
 </body>

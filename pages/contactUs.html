@@ -74,8 +74,7 @@
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
 
                         <!-- form-->
-                        <form action=”response_page.php” method=”post”>
-
+                        <form action="response_page.php" method="POST">
                             <fieldset>
                                 <legend>How may we Serve ?</legend>
                                 <span>Name: </span>
@@ -87,8 +86,7 @@
                                 <!--email-->
                                 <label for="email"></label>
                                 <span>Email: </span>
-                                <input name="email" id="email" type="email" placeholder="Please enter email" 
-                                required><br>
+                                <input name="email" id="email" type="email" placeholder="Please enter email" required><br>
 
                                 <!--News Letter subscription-->
                                 <label for="wouldSubscribe"></label>
@@ -103,8 +101,7 @@
                                     <span>Please select the type of your comment:</span>
                                 </label>
                                 <br>
-                                <select id="typeOfComment" name="typeOfComment" placeholder="Select One"
-                                 required>
+                                <select id="typeOfComment" name="typeOfComment" placeholder="Select One" required>
                                     <option value="prayer">Prayer Request</option>
                                     <option value="greeting">Greet the Pastor</option>
                                     <option value="concern">Have a question</option>
@@ -116,12 +113,12 @@
                                 <span>Comment:</span>
                                 <br>
                                 <textarea name="comment" id="comment" rows="4" cols="50">
-                                    Enter your comment :)
+
                                 </textarea>
 
 
                             </fieldset>
-                            <input type="submit" //formaction="response_page.php"  value="Submit">
+                            <input type="submit" class="btn btn-info" //formaction="response_page.php" value="Submit">
                         </form>
                     </div>
                 </div>
